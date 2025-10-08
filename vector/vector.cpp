@@ -139,6 +139,24 @@ void learnVector()
     cout << endl;
 
     // size of vector
+    cout << v7.size() << endl;
+
+    // pop_back --> removes the last element from the vector
+    v7.pop_back();
+
+    for (auto it : v7)
+    {
+        cout << it << " ";
+    }
+    cout << endl;
+
+    // We can swap 2 vectors using swap
+    v5.swap(v6);
+
+    v7.clear(); // erases the entire vector
+
+    // returns a boolean value based on size of vector
+    cout << v7.empty();
 }
 
 int main()
