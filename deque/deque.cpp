@@ -7,8 +7,7 @@ void learnDequeue()
     // declaration
     deque<int> dq;
 
-    // adding in deque 
-    // pushing in deque
+    // adding in deque
     dq.push_back(3);    // {3}
     dq.emplace_back(7); // {3,7}
 
