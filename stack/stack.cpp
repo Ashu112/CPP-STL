@@ -33,6 +33,8 @@ void learnStack()
     // this basically swaps the elemnts in the stack
     // stack<int> s1, s2;
     // s1.swap(s2);
+
+    // everthing in stack is O(1) complexity
 }
 
 int main()
